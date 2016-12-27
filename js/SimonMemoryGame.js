@@ -29,6 +29,7 @@
         $(square).fadeTo(200, 1);
         $(square).fadeTo(200, 0.6);
     }
+
     function fadeSquareHardMode(square) {
         $(square).fadeTo(125, 1);
         $(square).fadeTo(125, 0.6);
@@ -121,6 +122,7 @@
     function levelUp() {
         level++;
     }
+
     function updateLevelCounter() {
         document.getElementById("level").innerHTML = "Round: " + level;
     }
